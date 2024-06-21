@@ -1,0 +1,31 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install dependencies 🛠
+        run: yarn install
+
+      - name: Build 📦
+        run: yarn buildprod
+
+      - name: Deploy 🚀
+        uses: jamesives/github-pages-deploy-action@4.1.5
+        with:
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: public # The folder the action should deploy.
