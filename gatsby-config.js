@@ -10,7 +10,7 @@ module.exports = {
     keywords: 'Toronto, software engineer, senior software engineer, solutions architect, software architect, CKA, Kubernetes, AWS, Amazon Web Services, GCP, Google Cloud Platform, Women Who Code',
     locale: `en`,
     showThemeLogo,
-    siteUrl: 'https://mobehbooei.github.io/personal-website/',
+    siteUrl: 'https://www.mattbehbooei.com',
     title: `Matt Behbooei - Senior Software Engineer & Solutions Architect`,
     formspreeEndpoint: `https://formspree.io/f/mrgrpkyy`,
   },

@@ -1,23 +1,19 @@
-- company: HashtagPaid
-  position: Software Architect
-  period: September 2021 - present
-  url: https://hashtagpaid.com
+- company: Viral Nation
+  position: Senior Machine Learning Engineer
+  period: September 2023 - present
+  url: https://www.viralnation.com/
   description: |
-    As one of the two Software Architects on the team, reporting directly to the CTO, Ruxandra is directly responsible for the architecture and technical direction of the platform, as well as for the technical leadership of the engineering team.
+    ► Built a Knowledge Graph RAG (Retrieval-Augmented Generation) chatbot for interacting with company enterprise data, leveraging the GPT-4 32K model with ADA embeddings. Managed data storage with Neo4j, MongoDB, and Redis, and utilized Chroma DB as a vector database, all deployed on AWS ECS
 
-    Since joining the team, Ruxandra has been owning several infrastructure and architecture initiatives, as well as actively contributing to the development of the platform.
+    ► Developed a hybrid image moderation model using Vision Transformer (ViT), fine-tuned with 100k+ labeled images. Achieved an f1-score of 0.91 for 32 labels. Hosting on AWS EKS and EC2, moderating 50M+ images monthly
 
-    ► Designed and helped implement a new, scalable, and highly available infrastructure for the future version of the platform, using Terraform, Google Cloud Platform, Cloudflare, etc.
+    ► Created complete CI/CD workflows using GitHub Actions, reducing deployment times by 30%, and orchestrated the configuration of Kubernetes clusters for three projects, optimizing workloads to ensure reliable software deployment
 
-    ► Architected and helped implement a series of essential microservices, using NodeJS, FastifyJS, OpenAPI, etc.
+    ► Designed and deployed a Confluent Cloud Kafka cluster for a video moderation project, following the company's microservices architecture. Developed producers and consumers to handle 50k commands and 55M API calls monthly
 
-    ► Supported the development of an internal design system, and helped implement a new, modern, and scalable front-end architecture, using ReactJS, NextJS, TailwindCSS, etc.
+    ► Developed a frame similarity model with cryptographic hashing (MD5, SHA-1) to skip similar frames. Achieved an accuracy of 99.4% and a 40% reduction in endpoint calls, significantly enhancing moderation efficiency
 
-    ► Led the implementation of a new CI/CD pipeline, using Github Actions, eliminating toil and helping the team ship faster (from 1-2 releases per week to 5+ releases per day).
-
-    ► Supported the data warehousing and analytics initiatives, helping the team build a scalable data pipeline, using BigQuery, StitchData, etc.
-
-    #paid is a platform that connects brands with creators to produce custom content, amplify their message, and track their campaigns.
+    Viral Nation is the global leader in social-first transformation and commerce at scale that connects brands with influencers to drive sales and brand awareness. 
 
 - company: CTO.ai
   position: Solutions Architect
